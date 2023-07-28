@@ -136,7 +136,7 @@ body {
   width: 100%;
 }
 .header-title {
-  font-size: 50px;
+  font-size: 35px;
   letter-spacing: 10px;
   font-weight: 200;
 }
@@ -147,6 +147,11 @@ body {
 
 .navbar-brand img {
   width: 50px;
+}
+
+/*Choose us*/
+.choose-us p {
+  text-align: justify;
 }
 /*=================================================
 ||				4. Our Service
@@ -197,8 +202,8 @@ body {
   content: url("../images/right.png");
 }
 
-.service-item img{
-  width:100%;
+.service-item img {
+  width: 100%;
 }
 
 /*=================================================
@@ -492,5 +497,14 @@ img.about-img {
 @media (max-width: 480px) {
   .header-table {
     max-height: 627px;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #313131;
+    font-size: 20px;
+    padding: 0;
+    height: auto;
+    font-weight: 200;
+    letter-spacing: 0;
   }
 }
