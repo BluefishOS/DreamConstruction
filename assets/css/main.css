@@ -51,7 +51,7 @@ body {
 ||				3. Header
 ==================================================*/
 .header {
-  background: url("../images/construction_header.svg");
+  background: url("../images/main_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -62,7 +62,7 @@ body {
 }
 /*navbar*/
 .navbar-default .navbar-brand {
-  color: #313131;
+  color: #ffff;
   font-size: 30px;
   padding: 0;
   height: auto;
@@ -71,16 +71,16 @@ body {
 }
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-  color: #313131;
+  color: #ffff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #313131;
+  background-color: #ffff;
 }
 .navbar-fixed-top .navbar-toggle .icon-bar {
-  background-color: #313131;
+  background-color: #ffff;
 }
 .navbar-fixed-top .navbar-toggle {
-  border-color: #313131;
+  border-color: #ffff;
 }
 .navbar-default {
   background-color: transparent;
@@ -88,7 +88,7 @@ body {
   padding-top: 50px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #313131;
+  color: #ffff;
   /*text-transform: uppercase;*/
   padding-right: 20px;
   padding-left: 20px;
@@ -101,12 +101,12 @@ body {
   border-radius: 0px;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  border: 1px solid #313131;
-  color: #313131;
+  border: 1px solid #ffff;
+  color: #ffff;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #313131;
+  color: #ffff;
 }
 .navbar-nav > li > a {
   padding-top: 8px;
@@ -120,8 +120,8 @@ body {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent;
-  border: 1px solid #313131;
-  color: #313131;
+  border: 1px solid #ffff;
+  color: #ffff;
 }
 /*Home*/
 .header-wrapper {
@@ -139,10 +139,12 @@ body {
   font-size: 35px;
   letter-spacing: 10px;
   font-weight: 200;
+  color: #ffff;
 }
 .header-subtitle {
   font-size: 20px;
   letter-spacing: 3px;
+  color: #ffff;
 }
 
 .navbar-brand img {
@@ -500,7 +502,6 @@ img.about-img {
   }
 
   .navbar-default .navbar-brand {
-    color: #313131;
     font-size: 20px;
     padding: 0;
     height: auto;
